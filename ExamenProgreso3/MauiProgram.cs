@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using ExamenProgreso3.ViewModels;
+using ExamenProgreso3.Services;
 
-
-// prueba repositorio creado
 namespace ExamenProgreso3
 {
     public static class MauiProgram
@@ -18,8 +18,14 @@ namespace ExamenProgreso3
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
+
+            builder.Services.AddSingleton<DatabaseService>();
+            builder.Services.AddSingleton<LogService>();
+
+            builder.Services.AddTransient<ListaBDViewModel>();
+            builder.Services.AddTransient<LogsViewModel>();
 
             return builder.Build();
         }

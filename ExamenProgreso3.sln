@@ -5,29 +5,6 @@ VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenProgreso3", "ExamenProgreso3\ExamenProgreso3.csproj", "{C26EB348-20E4-4304-976F-2491FE0C4D51}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
-	ProjectSection(SolutionItems) = preProject
-		Suscripcion.cs = Suscripcion.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5BADD448-1FFD-4DAA-A04B-1B1D6A7B6374}"
-	ProjectSection(SolutionItems) = preProject
-		DatabaseService.cs = DatabaseService.cs
-		LogService.cs = LogService.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{CC54593C-B0ED-4109-9CDA-10A7FAFC6D88}"
-	ProjectSection(SolutionItems) = preProject
-		FormularioViewModel.cs = FormularioViewModel.cs
-		ListaBDViewModel.cs = ListaBDViewModel.cs
-		LogsViewModel.cs = LogsViewModel.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{6BDAD692-59B4-41C5-9099-9C24BB1CE1DA}"
-	ProjectSection(SolutionItems) = preProject
-		FormularioPage.xaml = FormularioPage.xaml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
