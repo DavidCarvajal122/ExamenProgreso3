@@ -16,6 +16,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5B
 		LogService.cs = LogService.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{CC54593C-B0ED-4109-9CDA-10A7FAFC6D88}"
+	ProjectSection(SolutionItems) = preProject
+		FormularioViewModel.cs = FormularioViewModel.cs
+		ListaBDViewModel.cs = ListaBDViewModel.cs
+		LogsViewModel.cs = LogsViewModel.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
