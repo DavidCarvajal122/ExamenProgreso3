@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ControlSuscripciones.Services
+namespace ExamenProgreso3.Services
 {
     public static class LogService
     {

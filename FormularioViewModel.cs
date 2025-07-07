@@ -2,10 +2,10 @@
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using ControlSuscripciones.Models;
-using ControlSuscripciones.Services;
+using ExamenProgreso3.Models;
+using ExamenProgreso3.Services;
 
-namespace ControlSuscripciones.ViewModels
+namespace ExamenProgreso3.ViewModels
 {
     public partial class FormularioViewModel : ObservableObject
     {

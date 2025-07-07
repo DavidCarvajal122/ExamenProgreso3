@@ -1,8 +1,8 @@
 ﻿using System;
 using SQLite;
-using ControlSuscripciones.Models;
+using ExamenProgreso3.Models;
 
-namespace ControlSuscripciones.Services
+namespace ExamenProgreso3.Services
 {
     public class DatabaseService
     {

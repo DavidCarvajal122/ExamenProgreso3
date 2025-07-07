@@ -2,7 +2,7 @@
 
 using SQLite;
 
-namespace ControlSuscripciones.Models
+namespace ExamenProgreso3.Models
 {
     public class Suscripcion
     {
